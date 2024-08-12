@@ -1,0 +1,60 @@
+#appCv{
+    height: 450px;
+    width: 350px;
+    /*border: 1px solid  black;*/
+    border-radius: 5px;
+}
+
+#header{
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+}
+
+#appCv form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#appCv input[type=textfield]{
+    height: 15%;
+    width: 90%;
+    cursor: default;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 15px;
+    border-color: black;
+    outline: none;
+}
+
+#appCv input[type=button], input[type=reset]{
+    width: 24%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    /*margin: 3px;*/
+    border: 0;
+    border-radius: 100%;
+}
+
+#appCv .gray{
+    background-color: gray !important;
+    color: white !important;
+
+}
+
+#appCv .aqua{
+    background-color: aquamarine !important;
+    color: black !important;
+
+}
